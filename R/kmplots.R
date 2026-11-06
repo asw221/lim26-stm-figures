@@ -17,7 +17,9 @@ kmplot <- function(
   f <- formula(km)
   lrt <- survival::survdiff(f, data = data)
   cx <- survival::coxph(f, data = data) %>%
-    update( . ~ . + survival::strata(Cohort) )
+    update(
+      . ~ . + survival::strata(Cohort) + scale(Age) + AJCC_stage
+    )
   cx.summ <- summary(cx)
   ylab <- as.character(f) %>%
     paste( collapse = " " ) %>%
