@@ -3,15 +3,16 @@ library (dplyr)
 library (ggplot2)
 library (here)
 library (magrittr)
-library (survial)
+library (survival)
 library (survminer)
 
 ## Create components of Fig. S10
 ##
 
 
-source( here("R", "themes.R") )
 source( here("R", "auxiliary.R") )
+source( here("R", "kmplots.R") )
+source( here("R", "themes.R") )
 
 
 sl <- read.csv( here("data", "subject-level.csv") )
@@ -203,7 +204,7 @@ fs10dr <- arrange_ggsurvplots(
 )
 
 ggsave(
-  here("output", "figure-s10d-right.pdf"), plot = fs10cr,
+  here("output", "figure-s10d-right.pdf"), plot = fs10dr,
   height = 5.25, width = 8.55
 )
 
