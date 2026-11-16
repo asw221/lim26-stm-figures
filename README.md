@@ -3,11 +3,11 @@
 
 Code to reproduce the figures in Lim et al. (2026+), *Science
 Translational Medicine*.
-Manuscript: <DOI not yet available>
+Manuscript: (DOI not yet available)
 
 Tested on macOS Tahoe, R 4.5.1.
 
-**Note:** figures may not be pixel-identical to the published versions
+**Note:** Figures may not be pixel-identical to the published versions
 in all cases. Some editing/repositioning of text was done by hand with
 an SVG-editor.
 
@@ -63,6 +63,7 @@ See `CITATION.cff`, or use GitHub's "Cite this repository" button.
 
 ## Contact
 Andrew Whiteman - awhitem@umich.edu
+
 Yvonne Lim - yvlim@umich.edu
 
 
