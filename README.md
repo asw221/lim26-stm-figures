@@ -1,5 +1,6 @@
 
 ## Splicing of HPV16 E6: Code and data for Figs. 8, S9, and S10
+<!-- ************************************************************* -->
 
 Code to reproduce the figures in Lim et al. (2026+), *Science
 Translational Medicine*.
@@ -13,6 +14,7 @@ an SVG-editor.
 
 
 ## Repository structure
+<!-- ************************************************************* -->
 
 - `data/`: input data (not modified by scripts)
 - `R/`: shared functions and plotting theme
@@ -24,6 +26,7 @@ All necessary data are in the `<project-root>/data` directory.
 
 
 ## Usage
+<!-- ************************************************************* -->
 
 To create and save all figures directly to `output`:
 ```bash
@@ -36,6 +39,7 @@ Rscript run-all.R
 
 
 ## Figure-to-code map
+<!-- ************************************************************* -->
 
 | Figure             | Script | Output |
 |:-------------------|:-------|:-------|
@@ -59,9 +63,14 @@ Rscript run-all.R
 
 
 ## Citation
+<!-- ************************************************************* -->
+
 See `CITATION.cff`, or use GitHub's "Cite this repository" button.
 
+
 ## Contact
+<!-- ************************************************************* -->
+
 Andrew Whiteman - awhitem@umich.edu
 
 Yvonne Lim - yvlim@umich.edu
