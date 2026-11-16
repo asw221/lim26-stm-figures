@@ -7,7 +7,7 @@
 renv/library/
 renv/staging/
 data/processed/*
-output/*
-output/logs/*
+output/*.pdf
+output/logs/*.txt
 !data/processed/.gitkeep
 !output/logs/.gitkeep
