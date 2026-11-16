@@ -12,8 +12,15 @@ in all cases. Some editing/repositioning of text was done by hand with
 an SVG-editor.
 
 
-#### Data
+## Repository structure
+
+- `data/`: input data (not modified by scripts)
+- `R/`: shared functions and plotting theme
+- `scripts/`: one script per step or figure
+- `output/`: empty initially - for output figures, logs
+
 All necessary data are in the `<project-root>/data` directory.
+
 
 
 ## Usage
@@ -49,13 +56,6 @@ Rscript run-all.R
 | Fig. S10D (part 1) | `scripts/figure-s10.R`  | `output/figure-s10d-left.pdf` |
 | Fig. S10D (part 2) | `scripts/figure-s10.R`  | `output/figure-s10d-right.pdf` |
 
-
-
-## Repository structure
-- `data/`: input data (not modified by scripts)
-- `R/`: shared functions and plotting theme
-- `scripts/`: one script per step or figure
-- `output/`: empty initially - for output figures, logs
 
 
 ## Citation
