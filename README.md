@@ -5,9 +5,12 @@ Code to reproduce the figures in Lim et al. (2026+), *Science
 Translational Medicine*.
 Manuscript: <DOI not yet available>
 
-#### Requirements
-- Tested on macOS Tahoe, R 4.5.1
-- System libraries: none (or list them)
+Tested on macOS Tahoe, R 4.5.1.
+
+**Note:** figures may not be pixel-identical to the published versions
+in all cases. Some editing/repositioning of text was done by hand with
+an SVG-editor.
+
 
 #### Data
 All necessary data are in the `<project-root>/data` directory.
@@ -25,7 +28,8 @@ Rscript run-all.R
 ```
 
 
-## Figure map
+## Figure-to-code map
+
 | Figure             | Script | Output |
 |:-------------------|:-------|:-------|
 | Fig. 8C            | `scripts/figure-8c.R`   | `output/figure-8c.pdf` |
@@ -45,9 +49,6 @@ Rscript run-all.R
 | Fig. S10D (part 1) | `scripts/figure-s10.R`  | `output/figure-s10d-left.pdf` |
 | Fig. S10D (part 2) | `scripts/figure-s10.R`  | `output/figure-s10d-right.pdf` |
 
-**Note:** figures may not be pixel-identical to the published versions
-in all cases. Some editing/repositioning of text was done by hand with
-an SVG-editor.
 
 
 ## Repository structure
