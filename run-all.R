@@ -2,10 +2,21 @@
 library (here)
 library (magrittr)
 
-
-dir.create(
-  here("output", "logs"), showWarnings = FALSE, recursive = TRUE
-)
+## ===================================================================
+## Run to reproduce:
+##  * Fig.   8, subparts C--H
+##  * Fig.  S9, subparts B--E
+##  * Fig. S10, subparts A--D
+##
+## From Lim et al., "HPV16 E6 splice variant drives partial
+##  epithelial-mesenchymal transition and aggressive invasion in
+##  oropharyngeal cancer."
+##
+## Andrew Whiteman (awhitem@umich.edu)
+## Yvonne Lim (yvlim@umich.edu)
+##
+## Last updated: November, 2026
+## ===================================================================
 
 
 scripts <- list.files(

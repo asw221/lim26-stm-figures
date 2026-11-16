@@ -7,7 +7,7 @@
 renv/library/
 renv/staging/
 data/processed/*
-!data/processed/.gitkeep
 output/*
 output/logs/*
+!data/processed/.gitkeep
 !output/logs/.gitkeep
