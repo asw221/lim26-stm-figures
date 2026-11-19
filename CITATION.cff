@@ -1,18 +1,26 @@
-preferred-citation:
-  type: article
-  authors:
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "Code for: Splicing of HPV16 E6 promotes aggressive invasion in oropharyngeal cancer via redistribution of E-cadherin, Figs. 8, S9, and S10"
+authors:
   - family-names: "Lim"
     given-names: "Yvonne"
     orcid: "https://orcid.org/0000-0002-8070-2779"
     affiliation: "University of Michigan"
-    email: "yvlim@umich.edu"
   - family-names: "Whiteman"
     given-names: "Andrew"
     orcid: "https://orcid.org/0000-0002-5107-0506"
     affiliation: "University of Michigan"
-    email: "awhitem@umich.edu"
-  title: "Splicing of HPV16 E6 promotes aggressive invasion in oropharyngeal cancer via
-redistribution of E-cadherin"
+license: MIT
+preferred-citation:
+  type: article
+  authors:
+    - family-names: "Lim"
+      given-names: "Yvonne"
+      orcid: "https://orcid.org/0000-0002-8070-2779"
+    - family-names: "Whiteman"
+      given-names: "Andrew"
+      orcid: "https://orcid.org/0000-0002-5107-0506"
+  title: "Splicing of HPV16 E6 promotes aggressive invasion in oropharyngeal cancer via redistribution of E-cadherin"
   journal: "Science Translational Medicine"
-  year: 2026+
-  doi: "10.xxxx/xxxxx"
+  year: 2026
+  # Add doi: "10.xxxx/real-doi" once the paper is published

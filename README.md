@@ -69,12 +69,5 @@ See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this
 repository" button.
 
 
-## Contact
-<!-- ************************************************************* -->
-
-Andrew Whiteman - awhitem@umich.edu
-
-Yvonne Lim - yvlim@umich.edu
-
 
 
