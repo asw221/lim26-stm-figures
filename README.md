@@ -65,7 +65,8 @@ Rscript run-all.R
 ## Citation
 <!-- ************************************************************* -->
 
-See (CITATION.cff), or use GitHub's "Cite this repository" button.
+See [`CITATION.cff`](CITATION.cff), or use GitHub's "Cite this
+repository" button.
 
 
 ## Contact
