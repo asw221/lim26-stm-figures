@@ -16,7 +16,7 @@ an SVG-editor.
 ## Repository structure
 <!-- ************************************************************* -->
 
-- `data/`: input data (not modified by scripts)
+- [`data/`](data): input data (not modified by scripts)
 - `R/`: shared functions and plotting theme
 - `scripts/`: one script per step or figure
 - `output/`: empty initially - for output figures, logs
