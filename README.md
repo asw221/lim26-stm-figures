@@ -1,4 +1,6 @@
 
+[![DOI](https://zenodo.org/badge/1448541941.svg)](https://doi.org/10.5281/zenodo.24374230)
+
 ## Splicing of HPV16 E6: Code and data for Figs. 8, S9, and S10
 <!-- ************************************************************* -->
 
